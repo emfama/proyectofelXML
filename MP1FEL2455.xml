@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" Version="0.4" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2020-03-04T09:04:00-06:00" Tipo="FACT" />
+        <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="11" CorreoEmisor="farmaciamoderna@gmail.com" NITEmisor="41256506" NombreComercial="FARMACIA MODERNA, POPTUN" NombreEmisor="EMFAMA,S.A.">
+          <dte:DireccionEmisor>
+            <dte:Direccion>BARRIO EL CENTRO, POPTUN PETEN
+</dte:Direccion>
+            <dte:CodigoPostal>17003</dte:CodigoPostal>
+            <dte:Municipio>San Benito</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="ANA TEO VEGA">
+          <dte:DireccionReceptor>
+            <dte:Direccion>POPTUN, PETEN</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>Guatemala</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase CodigoEscenario="1" TipoFrase="1" />
+          <dte:Frase CodigoEscenario="1" TipoFrase="2" />
+          <dte:Frase CodigoEscenario="9" TipoFrase="4" />
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item BienOServicio="B" NumeroLinea="1">
+            <dte:Cantidad>2.00</dte:Cantidad>
+            <dte:UnidadMedida>ST</dte:UnidadMedida>
+            <dte:Descripcion>Cromatonbic Ferro x 10 V.B.</dte:Descripcion>
+            <dte:PrecioUnitario>106.000000</dte:PrecioUnitario>
+            <dte:Precio>212.000000</dte:Precio>
+            <dte:Descuento>0.000000</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>189.285714</dte:MontoGravable>
+                <dte:MontoImpuesto>22.714286</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>212.000000</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="22.714286" />
+          </dte:TotalImpuestos>
+          <dte:GranTotal>212.000000</dte:GranTotal>
+        </dte:Totales>
+      </dte:DatosEmision>
+    </dte:DTE>
+  </dte:SAT>
+</dte:GTDocumento>

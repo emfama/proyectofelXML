@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" Version="0.4" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2020-02-29T20:53:00-06:00" Tipo="NCRE" />
+        <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="farmaciamoderna@gmail.com" NITEmisor="41256506" NombreComercial="FARMACIA MODERNA" NombreEmisor="EMFAMA,S.A.">
+          <dte:DireccionEmisor>
+            <dte:Direccion>4a calle 6a Ave. a 4-61 Zona 1, San Benito</dte:Direccion>
+            <dte:CodigoPostal>17003</dte:CodigoPostal>
+            <dte:Municipio>San Benito</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor CorreoReceptor="" IDReceptor="24992429" NombreReceptor="ANA PAOLA GARCIA ROSALES">
+          <dte:DireccionReceptor>
+            <dte:Direccion>SANTA ELENA, PETEN</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>Guatemala</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Items>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.000000" />
+          </dte:TotalImpuestos>
+          <dte:GranTotal>387.500000</dte:GranTotal>
+        </dte:Totales>
+        <dte:Complementos>
+          <dte:Complemento URIComplemento="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" NombreComplemento="Complemento Referencia Nota" IDComplemento="ComplementoReferenciaNota">
+            <cno:ReferenciasNota Version="0" SerieDocumentoOrigen="BC76FBEA" NumeroAutorizacionDocumentoOrigen="BC76FBEA-9AED-4583-8536-29E3120C80B8" MotivoAjuste="DESCUENTO" FechaEmisionDocumentoOrigen="2020-02-06" />
+          </dte:Complemento>
+        </dte:Complementos>
+      </dte:DatosEmision>
+    </dte:DTE>
+  </dte:SAT>
+</dte:GTDocumento>
